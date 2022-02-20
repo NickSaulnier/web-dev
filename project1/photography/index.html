@@ -7,26 +7,45 @@
     <!-- Page-specific CSS -->
     <link href="styles.css" rel="stylesheet"/>
 
+    <!-- Global CSS -->>
+    <link href="../common/styles.css" rel="stylesheet"/>
+
     <!-- Google Fonts CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"/>
 </head>
 <body>
+    <div id="navbar">
+        <h1 id="navbar-title">Nick Saulnier</h1>
+        <div id="navbar-vertical-divider"></div>
+        <a class="navbar-link" href="/project1/">
+            <h2 class="navbar-entry">Home</h2>
+        </a>
+        <a class="navbar-link" href="/project1/projects">
+            <h2 class="navbar-entry">Projects</h2>
+        </a>
+        <a class="navbar-link" href="/project1/contact">
+            <h2 class="navbar-entry">Contact</h2>
+        </a>
+        <a class="navbar-link" href="/project1/photography/">
+            <h2 id="navbar-current-page" class="navbar-entry">Photography</h2>
+        </a>
+    </div>
     <h1 id="header">Photography</h1>
     <div id="page-container">
         <div class="picture-container">
-            <img id="picture-1" class="picture" src="cityscape.jpg" />
-            <img class="picture" src="fog.jpg" />
-            <img class="picture" src="Ls.jpg" />
+            <img id="picture-1" class="picture" src="../resources/photography/cityscape.jpg" />
+            <img class="picture" src="../resources/photography/fog.jpg" />
+            <img class="picture" src="../resources/photography/Ls.jpg" />
         </div>
         <div class="picture-container">
-            <img id="picture-1" class="picture" src="morning_fog.jpg" />
-            <img class="picture" src="sea_lion.jpg" />
-            <img class="picture" src="tree.jpg" />
+            <img id="picture-1" class="picture" src="../resources/photography/morning_fog.jpg" />
+            <img class="picture" src="../resources/photography/sea_lion.jpg" />
+            <img class="picture" src="../resources/photography/tree.jpg" />
         </div>
         <div class="picture-container">
-            <img id="picture-1" class="picture" src="yay.png" />
-            <img id="picture-1" class="picture" src="cat.png" />
-            <img id="picture-1" class="picture" src="artichoke.png" />
+            <img id="picture-1" class="picture" src="../resources/photography/yay.png" />
+            <img id="picture-1" class="picture" src="../resources/photography/cat.png" />
+            <img id="picture-1" class="picture" src="../resources/photography/artichoke.png" />
         </div>
     </div>
 </body>
